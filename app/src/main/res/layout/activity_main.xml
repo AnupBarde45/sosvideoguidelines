@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/sosButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚨 Send SOS" />
+
+    <Button
+        android:id="@+id/emergencyContactsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📞 Emergency Contacts"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/videoCallButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video Call"
+        android:layout_below="@id/sosButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnGuidelines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guidelines"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
