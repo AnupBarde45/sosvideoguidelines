@@ -53,6 +53,7 @@ public class EmergencyContactsActivity extends AppCompatActivity {
                         checkCallPermission();
                     }
                 })
+                .setOnDismissListener(dialog -> finish()) // 💡 Finish the activity when the dialog is dismissed
                 .setCancelable(true)
                 .show();
     }

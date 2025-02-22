@@ -32,7 +32,9 @@
         <!-- Declare EmergencyContactsActivity -->
         <activity
             android:name="com.example.myapplication1.EmergencyContactsActivity"
+            android:theme="@style/Theme.MaterialComponents.Light.Dialog"
             android:exported="true"/>
+
 
     </application>
 
