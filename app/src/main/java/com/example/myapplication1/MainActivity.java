@@ -6,6 +6,7 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.media.Image;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -13,6 +14,7 @@ import android.provider.Settings;
 import android.telephony.SmsManager;
 import android.util.Log;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -42,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button sosButton = findViewById(R.id.sosButton);
+        ImageButton sosButton = findViewById(R.id.sosButton);
         Button emergencyContactsButton = findViewById(R.id.emergencyContactsButton);
         Button videoCallButton = findViewById(R.id.videoCallButton);
         Button btnGuidelines = findViewById(R.id.btnGuidelines);
